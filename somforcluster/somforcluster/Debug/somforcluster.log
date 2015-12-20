@@ -1,0 +1,51 @@
+﻿Build started 2015/12/16 23:56:09.
+     1>Project "E:\Code\somforcluster\somforcluster\somforcluster.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\somforcluster.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SOM.cpp
+         SOM.cpp
+     1>c:\program files\boost\boost_1_59_0\boost\format\alt_sstream_impl.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\program files\boost\boost_1_59_0\boost\algorithm\string\detail\classification.hpp(102) : see reference to function template instantiation '_OutIt std::copy<const char*,char*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=char *,
+                     _InIt=const char *
+                 ]
+                 c:\program files\boost\boost_1_59_0\boost\algorithm\string\classification.hpp(206) : see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<CharT>::is_any_ofF<boost::iterator_range<IteratorT>>(const RangeT &)' being compiled
+                 with
+                 [
+                     CharT=char,
+                     IteratorT=const char *,
+                     RangeT=boost::iterator_range<const char *>
+                 ]
+                 e:\code\somforcluster\somforcluster\som.cpp(98) : see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<CharT> boost::algorithm::is_any_of<const char[2]>(RangeT (&))' being compiled
+                 with
+                 [
+                     CharT=char,
+                     RangeT=const char [2]
+                 ]
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\somforcluster\Debug\somforcluster.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\somforcluster.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Code\somforcluster\Debug\somforcluster.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Code\somforcluster\Debug\somforcluster.lib" /MACHINE:X86 Debug\somforcluster.exe.embed.manifest.res
+         Debug\NeuralMain.obj
+         Debug\neuron.obj
+         Debug\SOM.obj
+         Debug\SOMSi.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\somforcluster.exe.embed.manifest" /manifest Debug\somforcluster.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         somforcluster.vcxproj -> E:\Code\somforcluster\Debug\somforcluster.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\somforcluster.unsuccessfulbuild".
+         Touching "Debug\somforcluster.lastbuildstate".
+     1>Done Building Project "E:\Code\somforcluster\somforcluster\somforcluster.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.47
